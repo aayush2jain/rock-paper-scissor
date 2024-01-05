@@ -13,7 +13,7 @@ body{
 .main{
     width: 200px;
     height: 200px;
-    margin-left: 500px;
+    margin-left: 40vw;
     background-color: bisque;
     background-image: url("rps/rock.jpg");
     background-size: cover;
