@@ -1,0 +1,62 @@
+body{
+     background-color: white;
+}
+.img img{
+    background-color: black;
+}
+.image{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.main{
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    background-color: bisque;
+    background-image: url("rps/rock.jpg");
+    background-size: cover;
+    animation: abc 0.5s linear infinite ;
+}
+.main h1{
+    text-align: center;
+}
+@keyframes abc{
+    0%{
+background-image: url("rock.jpg");
+    }
+    10%{
+background-image: url("rock.jpg");
+    }
+    35%{
+        background-image: url("paper.jpg");
+    }
+     70%{
+        background-image: url("paper.jpg");
+    }
+    80%{
+        background-image: url("scissor.jpg");
+    }
+    100%{
+        background-image: url("scissor.jpg");
+    }
+}
+.rock h1{
+    text-align: center;
+}
+.paper h1{
+    text-align: center;
+}
+.scissor h1{
+    text-align: center;
+}
+.rock{
+    cursor: pointer;
+}
+.paper{
+    cursor: pointer;
+}
+.scissor{
+    cursor: pointer;
+}
